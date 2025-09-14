@@ -20,6 +20,7 @@ This [Github Action](https://github.com/features/actions) displays test results 
 - Java / [JUnit](https://junit.org/)
 - JavaScript / [JEST](https://jestjs.io/) / [Mocha](https://mochajs.org/)
 - Swift / xUnit
+- Gherkin / [Behave](https://github.com/behave/behave)
 
 For more information see [Supported formats](#supported-formats) section.
 
@@ -146,6 +147,7 @@ jobs:
     #   jest-junit
     #   mocha-json
     #   rspec-json
+    #   behave
     reporter: ''
 
     # Allows you to generate only the summary.
