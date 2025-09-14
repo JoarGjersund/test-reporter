@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`behave-json tests report from behave.json test results matches snapshot 1`] = `
+TestRunResult {
+  "path": "fixtures/behave.json",
+  "suites": [
+    TestSuiteResult {
+      "groups": [
+        TestGroupResult {
+          "name": "Example Scenario 1",
+          "tests": [
+            TestCaseResult {
+              "error": undefined,
+              "name": "Example Scenario 1",
+              "result": "skipped",
+              "time": 0,
+            },
+          ],
+        },
+      ],
+      "name": "example.feature",
+      "totalTime": undefined,
+    },
+  ],
+  "totalTime": 0,
+}
+`;

@@ -1,0 +1,108 @@
+{
+  "environment": "",
+  "features": [
+    {
+      "name": "Test example",
+      "status": "untested",
+      "duration": 0.0,
+      "filename": "example.feature",
+      "scenarios": [
+        {
+          "name": "Example Scenario 1",
+          "duration": 0,
+          "status": "untested",
+          "tags": [],
+          "filename": "example.feature",
+          "feature": "Test example",
+          "id_feature": 4222,
+          "steps": [
+            {
+              "step_type": "given",
+              "name": "something something is configured",
+              "text": "None",
+              "status": "untested",
+              "duration": 0.0,
+              "table": {
+                "config_key": [
+                  "config 1",
+                  "config 2"
+                ],
+                "config_value": [
+                  "value 1",
+                  "value 2"
+                ]
+              },
+              "hash": 77427423,
+              "index": 0
+            },
+            {
+              "step_type": "given",
+              "name": "something else is set to 1",
+              "text": "None",
+              "status": "untested",
+              "duration": 0.0,
+              "hash": 90598295,
+              "index": 1
+            },
+            {
+              "step_type": "when",
+              "name": "something happens",
+              "text": "None",
+              "status": "untested",
+              "duration": 0.0,
+              "hash": 3409566,
+              "index": 5
+            },
+            {
+              "step_type": "when",
+              "name": "something else happens",
+              "text": "None",
+              "status": "untested",
+              "duration": 0.0,
+              "hash": 82473309,
+              "index": 6
+            },
+            {
+              "step_type": "then",
+              "name": "something should have happened",
+              "text": "None",
+              "status": "untested",
+              "duration": 0.0,
+              "hash": 58021552,
+              "index": 7
+            },
+            {
+              "step_type": "then",
+              "name": "something else should also have happened",
+              "text": "None",
+              "status": "untested",
+              "duration": 0.0,
+              "hash": 42403700,
+              "index": 8
+            }
+          ],
+          "outline_index": 0,
+          "background": {
+            "duration": 0.0,
+            "steps": []
+          },
+          "error_msg": [],
+          "error_lines": [],
+          "error_step": null,
+          "error_background": false,
+          "id_hash": 43321471
+        }
+      ],
+      "background": {},
+      "id": 4222
+    }
+  ],
+  "steps_definition": {
+    "77427423": "something is configured",
+    "90598295": "something else is set to {number}",
+    "3409566": "something happens",
+    "82473309": "something else happens",
+    "58021552": "something should have happened",
+    "42403700": "something else should also have happened"
+  }
+}
